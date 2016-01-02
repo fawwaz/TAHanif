@@ -371,7 +371,17 @@ obj/linux64/Release/src/ofApp.o: src/ofApp.cpp src/ofApp.h \
  ../../../addons/ofxOpenCv/src/ofxCvHaarFinder.h \
  ../../../addons/ofxARToolKitPlus1/src/ofxARToolkitPlus.h \
  ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/ar.h \
- ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/config.h
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/config.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/TrackerSingleMarker.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/Tracker.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/ARToolKitPlus.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/ar.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/arMulti.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/vector.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/Camera.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/extra/BCH.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/extra/Hull.h \
+ ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/TrackerMultiMarker.h
 
 src/ofApp.h:
 
@@ -1152,3 +1162,23 @@ src/ofApp.h:
 ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/ar.h:
 
 ../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/config.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/TrackerSingleMarker.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/Tracker.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/ARToolKitPlus.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/ar.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/arMulti.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/vector.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/Camera.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/extra/BCH.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/extra/Hull.h:
+
+../../../addons/ofxARToolKitPlus1/libs/ARToolKitPlus/include/ARToolKitPlus/TrackerMultiMarker.h:
