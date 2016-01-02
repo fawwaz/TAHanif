@@ -62,6 +62,7 @@ void ofApp::setup(){
     tricker->setMarkerMode (ARToolKitPlus::MARKER_TEMPLATE);  
     tricker->setPatternWidth (80);  
     tricker->addPattern ((const char *)ofToDataPath("patt.hiro").c_str());
+    //tricker->addPattern ((const char *)ofToDataPath("marker64.pat").c_str());
 }
 
 //--------------------------------------------------------------
@@ -88,10 +89,12 @@ void ofApp::update(){
         {  
         	ofSetColor(255, 0, 255);
         	ofCircle(200, 300, 60);
+        	ofLog(OF_LOG_NOTICE, "Marker dideteksi dengan confidence  " + ofToString((int(conf * 100.0f))));
 			printf("\n\nFound marker %d  (confidence %d%%)\n\nPose-Matrix:\n  ", markerId[0], (int(conf * 100.0f)));  
 			for (int i = 0; i < 16; i++)  
 			printf("%.2f  %s", tricker->getModelViewMatrix()[i], (i % 4 == 3) ? "\n  " : "");  
         }else{
+        	ofLog(OF_LOG_NOTICE, "Yaah.. marker TIDAK dideteksi markerId value " + ofToString(markerId.size()));
         	ofSetColor(0, 255, 255);
         	ofCircle(200, 300, 60);
         }
